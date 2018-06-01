@@ -3239,7 +3239,7 @@ void ServerApp::PostCombatProcessTurns() {
 
         empire->CheckResearchProgress();
         empire->CheckProductionProgress();
-        empire->CheckTradeSocialProgress();
+        empire->CheckInfluenceProgress();
     }
 
     TraceLogger(effects) << "!!!!!!! AFTER CHECKING QUEUE AND RESOURCE PROGRESS";
